@@ -5,3 +5,13 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	The staging area is an intermediary stage holding files added to the repository that are not yet committed. It gives the power to control what goes to the repository from a working directory and eventually a flexibility to reverse a mistaken addition.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	Since the staging area is an intemediary stage, we can use git diff --staged to see if there is actually a logical difference between the current version and the most recent commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches are much more helpful when we want to create a separate version without affecting the master version. For example creating backups, experimental versions or different language versions.
+	The branch can be edited separately and published separately but can also be merged with the master to create a unified version.
+
+How do the diagrams help you visualize the branch structure?
+	The diagrams show the commit history in a much clearer way. Since the commit history is not linear, diagrams actually give a full picture.
