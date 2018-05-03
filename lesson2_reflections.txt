@@ -20,3 +20,10 @@ What is the result of merging two branches together? Why do we represent it in t
 	Merging two branches together combines the commit history of the combined branches such that all commits are accessible from the same tip.
 	The diagram repesentation is helps provide a clear picture of the commit history since commit history is not linear.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Git's Automatic Merging:
+		Pros: When you have a long history of commits in multiple files, it becomes tedious to merge manually. With git's capability to track changes it is much easier to identify the origin and tips of the merging branches.
+		Cons: Git's automatic merging does not take care of conflicting changes, made in same area
+	Manual Branch Merging:
+		Pros: When merge conflicts are identified, they can only be resolved manually since Git cannot resolve conflicting changes
+		Cons: It requires deeper understanding of every change that was made in every commit in both branches and that can be very tedious
