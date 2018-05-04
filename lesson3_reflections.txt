@@ -4,3 +4,7 @@ When would you want to use a remote repository rather than keeping all your work
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 	Before I learnt about Git, I would collaborate using Dropbox or google drive. But the most easiest part of this is that collaborators don't need technical knowledge of how these tools work. Just edit the shared file.
 	The difficulty would however rise when reconciling the editions especially when collaborators work simultaneously on the same files.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	When adding a new feature or changes that might disrupt the working of the master version. This also favours the sharing of the changes before they get integrated into the main branch.
+	Working on a separate branch gives a backup option, more room to test the changes before taking them live.
