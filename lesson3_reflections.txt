@@ -1,2 +1,6 @@
 When would you want to use a remote repository rather than keeping all your work local?
   When you need to share or collaborate on the project
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	Before I learnt about Git, I would collaborate using Dropbox or google drive. But the most easiest part of this is that collaborators don't need technical knowledge of how these tools work. Just edit the shared file.
+	The difficulty would however rise when reconciling the editions especially when collaborators work simultaneously on the same files.
